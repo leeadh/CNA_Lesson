@@ -14,6 +14,14 @@ you should see a hello world on your main page
 
 ![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/hrapp.png)
 
+# Run our chat room application connected to mongoDB # 
+
+1) MONGODB_URL='mongodb://<db_ip>:27017/' node 3_node_chatroom_mongo.js
+
+2) go to <ip>:3000. If you are running locally its localhost:3000
+
+![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/chatapp.png)
+
 # Deploying our application to  cloud # 
 
 1) create an instance on AWS/vsphere/Azure
