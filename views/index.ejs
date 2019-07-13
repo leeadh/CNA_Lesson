@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- CSS (load bootstrap from a CDN) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+</head>
+<body>
+  <h1>May Node and Express be with you always</h1>
+
+  <div class="table-responsive">
+    <table class="table table-bordered">
+        <thead>
+                <tbody>
+                        <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Username</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Occupation</th>
+                        </tr>
+                        <% for(var i=0; i<employees.length; i++){ %>
+                            <tr>
+                                <td><%= employees[i].name %></td>
+                                <td><%= employees[i].username %></td>
+                                <td><%= employees[i].email %></td>
+                                <td><%= employees[i].occupation %></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
