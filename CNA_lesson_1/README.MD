@@ -32,3 +32,5 @@ You should see the image as below
 1) create an instance on AWS/vsphere/Azure. This assumes you know how to create instances. 
 
 2) Perform the necessary steps as above
+
+*** Congratulations! you have completed module 1 ***

@@ -45,10 +45,12 @@ RUN npm install
 EXPOSE 3000
 CMD ["node", "2_node_mongo.js"]
 ```
-2) DO a ```docker build -t leexha/node_cna:latest .``` Depending on what you have named your repo, replace ```leexha/node_cna``` with your own ```<username>/<repo_name>```
+2) Do a ```docker build -t leexha/node_cna:latest .``` Depending on what you have named your repo, replace ```leexha/node_cna``` with your own ```<username>/<repo_name>```
 
 3) ```docker push leexha/node_cna```
 
-4) go to your aws instance and do 
+4) go to your command line and do 
 
 ```docker run -d   -e MONGODB_URL=mongodb://<mongoip>:27017/user -p 4000:4000 leexha/node_cna ```
+
+*** Congratulations! you have completed module 2 ***
