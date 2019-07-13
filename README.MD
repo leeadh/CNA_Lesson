@@ -9,3 +9,5 @@ This is a series on how to develop cloud native applications. To start please gi
 2) git clone https://github.com/leeadh/CNA_Lesson.git
 
 3) cd CNA_lesson_1
+
+4) npm install --save

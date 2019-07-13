@@ -7,8 +7,32 @@
   <meta charset="UTF-8">
   <title>MY APP</title>
 </head>
+
+<style>
+    body, html {
+      height: 50%;
+      margin: 0;
+    }
+    
+    .bg {
+      /* The image used */
+      background-image: url("https://vdr.one/wp-content/uploads/2015/10/vmware-banner.png");
+    
+      /* Full height */
+      height: 130%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+
+
+
 <body>
-  <h1>May Node and Express be with you always</h1>
+  <div class="bg"><h1>May Node and Express be with you always <img src="../images/icon.png" height="80"></h1></div>
+  
 
   <div class="table-responsive">
     <table class="table table-bordered">
@@ -34,7 +58,17 @@
             
         </tbody>
     </table>
-  </div>
 
+    <h2>Add a new user</h2>
+
+    <form action="/newuser" method="POST">
+      <input type="text" placeholder="name" name="name">
+      <input type="text" placeholder="email" name="email">
+      <input type="text" placeholder="occupation" name="occupation">
+      <input type="text" placeholder="username" name="username">
+      <button type="submit">Submit</button>
+    </form>
+
+</div>
 </body>
 </html>
