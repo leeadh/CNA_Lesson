@@ -4,11 +4,13 @@
 
 2) go to localhost:3000
 
+you should see a hello world on your main page
+
 # Run the second application to connect to mongoDB # 
 
-1) node 2_node_mongo.js
+1) MONGODB_URL='mongodb://<db_ip>:27017/' node 2_node_mongo.js
 
-2) go to localhost:3000
+2) go to <ip>:3000. If you are running locally its localhost:3000
 
 ![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/hrapp.png)
 
