@@ -10,6 +10,8 @@
 
 2) go to localhost:3000
 
+![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/hrapp.png)
+
 # Deploying our application to  cloud # 
 
 1) create an instance on AWS/vsphere/Azure
