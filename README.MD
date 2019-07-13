@@ -8,11 +8,9 @@ To check if you have installed node and npm successfully please do
 
 ```node -v ``` and ```npm -v```
 
-# Running CNA_Lesson_1 app #
-
 1) Create a folder called CNA by doing ```mkdir CNA```
 
 2) ```cd CNA``` and do ```git clone https://github.com/leeadh/CNA_Lesson.git```
 
-3) ```cd CNA_lesson_1```. 
+3) go to the appropriate lesson you wish to embark and perform the steps inside the Readme.md
 
