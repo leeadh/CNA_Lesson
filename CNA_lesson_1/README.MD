@@ -1,3 +1,7 @@
+# Pre-requisites# 
+1) ```npm install --save```
+
+
 # Run the first application to do hello world # 
 
 1) node 1_hello_world_server.js

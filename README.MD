@@ -16,4 +16,3 @@ To check if you have installed node and npm successfully please do
 
 3) ```cd CNA_lesson_1```. 
 
-4) ```npm install --save```
