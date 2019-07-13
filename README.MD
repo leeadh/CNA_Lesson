@@ -1,10 +1,12 @@
 # How to run this #
 
-1) Create a folder called cna_lesson1
+1) Create a folder called CNA
 
-2) git clone https://github.com/leeadh/adr_cna_lesson1.git
+2) git clone https://github.com/leeadh/CNA_Lesson.git
 
-3) Run npm init 
+3) cd CNA_lesson_1
+
+4) Run npm init 
 
 4) Modify the app.js server to connect to database
 
