@@ -53,4 +53,6 @@ CMD ["node", "2_node_mongo.js"]
 
 ```docker run -d   -e MONGODB_URL=mongodb://<mongoip>:27017/user -p 4000:4000 leexha/node_cna ```
 
-*** Congratulations! you have completed module 2 ***
+
+![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_2/public/images/Party-Poppers-icon.png)
+***Congratulations! you have completed module 2***

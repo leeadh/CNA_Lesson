@@ -33,4 +33,5 @@ You should see the image as below
 
 2) Perform the necessary steps as above
 
-*** Congratulations! you have completed module 1 ***
+![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_2/public/images/Party-Poppers-icon.png)
+***Congratulations! you have completed module 1***
