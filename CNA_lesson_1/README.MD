@@ -25,7 +25,7 @@ You should see the image as below
 
 2) go to ```<ip>:3000```. If you are running locally its ```localhost:3000```
 
-![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/chatapp.png)
+![alt text](https://github.com/leeadh/CNA_Lesson/blob/master/CNA_lesson_1/public/images/chatpp.gif)
 
 # Deploying our application to cloud # 
 
