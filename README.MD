@@ -8,7 +8,7 @@ To check if you have installed node and npm successfully please do
 
 ```node -v ``` and ```npm -v```
 
-# How to run this #
+# Running CNA_Lesson_1 app #
 
 1) Create a folder called CNA by doing ```mkdir CNA```
 
