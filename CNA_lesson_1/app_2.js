@@ -6,7 +6,7 @@ const MongoClient = require('mongodb').MongoClient
 var db
 
 
-MongoClient.connect('mongodb://xxxx:27017', (err, database) => {
+MongoClient.connect('mongodb://54.255.226.91:27017', (err, database) => {
   if (err) return console.log(err)
   db = database.db('user')
   app.listen(process.env.PORT || 3000, () => {
