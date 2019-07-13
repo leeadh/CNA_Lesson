@@ -8,8 +8,6 @@
 
 4) Run npm init 
 
-4) Modify the app.js server to connect to database
-
 # Run the first application to do hello world # 
 
 1) node app_1.js
